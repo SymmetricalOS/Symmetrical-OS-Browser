@@ -1,14 +1,12 @@
-#include <rn.h>
+#include <rn.c>
 #include <stdio.h>
 #include <string.h>
 
-struct init {
-  static void wn_init() {
-    RN_INIT
-  }
-}
+#define OLIVEC_IMPLEMENTATION
 
-int main(int argc, char* argv[]) {
-  init run;
-  run.wn_init();
-}
+#define WIDTH 480
+#define HEIGHT 640
+
+uint32_t pixels[WIDTH*HEIGHT];
+
+struct
