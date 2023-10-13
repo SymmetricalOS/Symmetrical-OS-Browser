@@ -1,23 +1,15 @@
 /* Copyright (C) 2023 SymmetricalOS 
-
-
-                        WRITTEN BY PISSCAN THE GREATEST GOD PROGRAMMER
-
-                        
+   WRITTEN BY PISSCAN THE GREATEST GOD PROGRAMMER
 */
 
-
-#ifnef _RN_H_
+#ifndef _RN_H_
 #define _RN_H_
 
 #include <limits.h>
 #include <string.h>
 
-// ---------------------------------------------------------------------------
-//                          Definitions
-// ---------------------------------------------------------------------------
-// Definitions for the key pad extended keys are added here.  When one
-// of these keys are pressed, getch will return a zero followed by one
+// Definitions for the key pad extended keys are added here.
+// When one of these keys are pressed, getch will return a zero followed by one
 // of these values. This is the same way that it works in conio for
 // dos applications.
 #define KEY_HOME        71
@@ -45,4 +37,6 @@ struct sw {
   static void spawn_window() {
     // gwlegwekjlbgarjhlgwyugrghwkugrwugu
   }
-}
+};
+
+#endif // _RN_H_
