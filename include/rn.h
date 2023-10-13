@@ -34,7 +34,7 @@
 #define KEY_F9          67
 
 struct sw {
-  static void spawn_window() {
+  static void spawn_window(int width, int height, const char* title) {
     // gwlegwekjlbgarjhlgwyugrghwkugrwugu
   }
 };
