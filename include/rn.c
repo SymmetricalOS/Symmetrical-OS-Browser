@@ -2,8 +2,8 @@
    WRITTEN BY PISSCAN THE GREATEST GOD PROGRAMMER
 */
 
-#ifndef _RN_H_
-#define _RN_H_
+#ifndef _RN_C_
+#define _RN_C_
 
 #include <limits.h>
 #include <string.h>
