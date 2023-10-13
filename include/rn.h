@@ -3,7 +3,7 @@
 
                         WRITTEN BY PISSCAN THE GREATEST GOD PROGRAMMER
 
-                        This Program Leverages GTK.h
+                        
 */
 
 
