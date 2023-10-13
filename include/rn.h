@@ -10,7 +10,6 @@
 #ifnef _RN_H_
 #define _RN_H_
 
-#include <gtk/gtk.h>
 #include <limits.h>
 #include <string.h>
 
@@ -42,13 +41,8 @@
 #define KEY_F8          66
 #define KEY_F9          67
 
-struct spawn_window {
-    static void destroy() {
-        typedef GtkWidget *widget, gpointer data DESTROY_EVENT;
-        typedef gtk_main_quit(); RN_QUIT;
-    }
-
-    static void rn_init() {
-        typedef gtk_init(&argc, &argv) RN_INITIALIZE // INT MAIN(INT ARGC, CHAR* ARGV[])
-    }
+struct sw {
+  static void spawn_window() {
+    // gwlegwekjlbgarjhlgwyugrghwkugrwugu
+  }
 }
